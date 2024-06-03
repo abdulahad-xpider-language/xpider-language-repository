@@ -1,10 +1,25 @@
 Namespace example.strings
 
+// Public string variable
 <def.public [String]> string1 = "String 1";
+
+// Public string variable with CharList mixin
 <def.public [CharList String]> string2 = "String 2";
+
+// Public constant string variable
 <def.public.const [String]> string3 = "String 3";
+
+// Private string variable
 <def.private [String]> string4 = "String 4";
+
+// Private string variable with CharList mixin
 <def.private [CharList String]> string5 = "String 5";
+
+// Private constant string variable
 <def.private.const [String]> string6 = "String 6";
+
+// Public string variable with CustomClass mixin
 <def.public [String CustomClass]> string7 = "String 7";
+
+// Private string variable with CustomClass mixin
 <def.private [String CustomClass]> string8 = "String 8";
