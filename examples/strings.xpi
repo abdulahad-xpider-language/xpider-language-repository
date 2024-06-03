@@ -1,0 +1,10 @@
+Namespace example.strings
+
+<def.public [String]> string1 = "String 1";
+<def.public [CharList String]> string2 = "String 2";
+<def.public.const [String]> string3 = "String 3";
+<def.private [String]> string4 = "String 4";
+<def.private [CharList String]> string5 = "String 5";
+<def.private.const [String]> string6 = "String 6";
+<def.public [String CustomClass]> string7 = "String 7";
+<def.private [String CustomClass]> string8 = "String 8";
